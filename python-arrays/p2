@@ -1,0 +1,34 @@
+# Problem 2
+
+# We can ask the computer IF something in in an array or not.
+# Take a look:
+
+A = [0, 1, 4, 7, 9]
+
+for i in range(10):
+	if i in A:
+		print("Looks like " + str(i) + " is in our array!")
+	else:
+		print("Uh oh, " + str(i) + " is NOT in our array!")
+		
+# Here, like before, our "for" loop is counting from 1 to 9.
+# On each pass, we say "if i in A", which asks "hey is this 
+# number i (the number of the current pass through the loop)
+# inside the array A? If it is, we print one message, if not 
+# we print the other one. 
+
+# I have three arrays. Two are full and one is empty. I want to 
+# add to the empty one. I want to add every element (word) that 
+# is on BOTH the other arrays. 
+
+# #Uncomment these lines........
+#X = ["gandalf", "aragorn", "bilbo", "gimli", "legolas", "pippin"]
+#Y = ["frodo", "sam", "gandalf", "gollum", "bilbo", "pippin"]
+#Z = []
+
+#for elem in X:  # 
+#	if # ask if the current element from X "elem" is also in Y
+#		# if we got here than it IS. Add elem to Z.
+#print(Z)
+# #..............................
+

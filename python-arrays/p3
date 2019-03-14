@@ -1,0 +1,55 @@
+# Problem 3
+
+
+# Consider the following sorted list
+
+A = [4, 13, 19, 22, 23, 31, 35, 41, 50]
+
+# Now let's say I wanted to insert a number in its
+# proper spot.
+
+x = 28
+
+# First let's find out HOW LONG our array is...
+
+length = len(A)
+
+# This len() function is built into Python, and will tell us 
+# how long our array A is.
+
+for i in range(length):
+	if A[i] > x:
+		A.insert(i, x)
+		break
+
+print(A)
+
+# Take a look at the above loop and try to understand what it's 
+# doing. The "insert" function inserts 'x' at index numebr i.
+# You can google "Python insert" if you want to learn more. 
+# The work "break" makes the program exit the loop and stop
+# looping.
+
+# Try changing x above from 28 to another number and see what
+# happens.
+
+# Now uncomment the bellow. For every single number in J, insert 
+# it into K at the right place so that K ends up as an in-order 
+# list of all the numbers. You can copy and paste from above
+# if you want to.
+
+
+# #Uncomment these lines........
+# J = [12, 34, 8, 3, 23, 11, 85, 20, 16, 99]
+# K = [1, 5, 17, 21, 40, 55, 68, 101]
+
+# for n in J:
+# 	length_K = # What goes here?
+# 	for # what goes here?
+#		# and what about here?
+#			# what on earth goes here?
+#			# and what about here? Snake? Shake? Flake? 
+		
+# print(K)
+# #..............................
+

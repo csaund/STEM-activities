@@ -1,0 +1,43 @@
+# Problem 1.
+
+# Congrats! Now arrays would not be that useful if we couldn't 
+# put things into them. Watch this:
+
+A = ["dog", "cat", "mouse"]
+
+print(A)
+
+# Okay, you printed your array! Now let's add something to our 
+# array. Uncomment the next three lines (meaning just delete the 
+# "#" at the beginning of the line), and choose a word to make
+# the variable w equal. Remember to surround your word (we call 
+# them strings) in "quotes."
+
+# #Uncomment these lines........
+# w = 
+# A.append(w)
+# print(A)
+# #..............................
+
+
+# Pretty cool, right! Now you can use A.append() to add to an array!
+# Now we're going to try and iteratively (one after another) add
+# even numbers from 0 to 20 to our array.
+
+# Uncomment the below. It describes a "loop" which counts from 0 
+# to 20. Every time we pass through the loop, the variable "i" is 
+# the number we're on (0, 1, 2, 3...). The first thing we do is 
+# use an "if" statement to check if i is even. If it IS EVEN, 
+# we go to the next indented line.
+
+# You need to fill in what goes on that line! Can you get the 
+# program to print an array with even numbers under 20?
+
+# #Uncomment these lines........
+#B = []
+#for i in range(20):
+#	if i % 2 == 0:
+#		# WHAT GOES HERE? #
+#print(B)
+# #..............................
+

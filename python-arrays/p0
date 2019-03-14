@@ -1,0 +1,25 @@
+# Problem 0.
+
+# Any line in a python program that starts with "#" is a "comment,"
+# and will be ignored by the computer. If you deleted all of these 
+# lines, the program would be the same (as far as the computer cares)!
+
+# ARRAYS
+# Arrays are like lists that the computer understands. They are
+# a great way for us to store data that we will need later.
+# Here I've named a new array "A" and given it five words that
+# will be saved in order by our program.
+
+A = ["adam", "is", "super", "awesome", "right?"]
+
+# I can access pieces of data in the array using the name of the
+# array and the POSITION NUMBER of the piece of data (the "element")
+# that we want. Check it out:
+
+print(A[0])
+print(A[1])
+print(A[2])
+
+# Using this same pattern, see if you can print "awesome." Don't cheat!
+# Don’t type the word “awesome” yourself!
+
