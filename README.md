@@ -8,7 +8,9 @@ They get the Robots to perform tasks like walk across the room, introduce themse
 do a dance. 
 ### Stats:
 Time: 45-90 Minutes
+
 Age: 6-12
+
 Materials: Very little; optional notecards
 ### CS principles: 
 * Interfaces and Instructions
@@ -30,3 +32,14 @@ Materials: 1 computer per student
 * Coding basics
 * Arrays and iterators
 * Loops 
+
+## TODO
+A series of activities which are fleshed out but which I've not yet gotten around to writing up here
+* Scavenger hunt (give instructions to follow like a machine, hide things around a building)
+* Tower challenge
+* Roller Coaster Challenge
+* Bridges
+* Other index card coding
+* Moon lander
+* CodeCombat
+* Lego Mindstorm robots
